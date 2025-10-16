@@ -1,4 +1,5 @@
-# Lesson 3 Variables, operators, decision tries
+# js-eslint-config
+recommended config from me for programming on a JavaScript
 
 In order to use this config you have to install the following NPM packages
 ```
