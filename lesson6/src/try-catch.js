@@ -5,7 +5,8 @@ async function getData(primary, backup) {
     try {
         console.log(`Звертаюсь до: ${primary}`);
         const r1 = await fetch(primary);
-        if (!r1.ok) throw new Error(`Primary status ${r1.status}`);
+        if (!r1.ok)
+            throw new Error(`Primary status ${r1.status}`);
         const d1 = await r1.json();
         console.log('Primary OK:', d1);
         return d1;
