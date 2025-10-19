@@ -19,4 +19,4 @@ function fetchUsers(url) {
         });
 }
 
-fetchUsers(USERS_URL);
+fetchUsers(USERS_URL).then();
